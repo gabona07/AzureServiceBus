@@ -39,5 +39,105 @@ public class ChooseZoneActivity extends AppCompatActivity {
             }
         });
 
+        sectorTwoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.509586);
+                intent.putExtra("longitude", 19.053491);
+                startActivity(intent);
+            }
+        });
+
+        sectorThreeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.511159);
+                intent.putExtra("longitude", 19.047902);
+                startActivity(intent);
+            }
+        });
+
+        sectorFourButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.506834);
+                intent.putExtra("longitude", 19.052058);
+                startActivity(intent);
+            }
+        });
+
+        sectorFiveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.505243);
+                intent.putExtra("longitude", 19.050182);
+                startActivity(intent);
+            }
+        });
+
+        sectorSixButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.503308);
+                intent.putExtra("longitude", 19.050654);
+                startActivity(intent);
+            }
+        });
+
+        sectorSevenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.500725);
+                intent.putExtra("longitude", 19.050789);
+                startActivity(intent);
+            }
+        });
+
+        sectorEightButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.496084);
+                intent.putExtra("longitude", 19.049600);
+                startActivity(intent);
+            }
+        });
+
+        sectorNineButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.494624);
+                intent.putExtra("longitude", 19.055812);
+                startActivity(intent);
+            }
+        });
+
+        sectorTenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.489822);
+                intent.putExtra("longitude",  19.054400);
+                startActivity(intent);
+            }
+        });
+
+        sectorElevenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseZoneActivity.this, MapsActivity.class);
+                intent.putExtra("latitude", 47.490339);
+                intent.putExtra("longitude", 19.058783);
+                startActivity(intent);
+            }
+        });
+
     }
 }
