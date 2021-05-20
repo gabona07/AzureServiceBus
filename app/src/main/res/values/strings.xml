@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AzureTest</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="start_monitoring">Ellenőrzés indítása</string>
+    <string name="sector11">11. körzet</string>
+    <string name="sector10">10. körzet</string>
+    <string name="sector9">9. körzet</string>
+    <string name="sector8">8. körzet</string>
+    <string name="sector7">7. körzet</string>
+    <string name="sector6">6. körzet</string>
+    <string name="sector5">5. körzet</string>
+    <string name="sector4">4. körzet</string>
+    <string name="sector3">3. körzet</string>
+    <string name="sector2">2. körzet</string>
+    <string name="sector1">1. körzet</string>
+</resources>
